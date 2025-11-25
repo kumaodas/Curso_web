@@ -3,18 +3,57 @@
     <ion-title>
       Blank
     </ion-title>
+    <ion-buttons slot="start">  
+      <ion-back-button defaultHref="/principal"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <ion-img src="assets/fotos/g3.jpg">
+    </ion-img>
+    <ion-text>
+      <h1>
+        Manga
+      </h1>
+    </ion-text>
+    <ion-text>
+      <h3>
+        Gachiakuta
+      </h3>
+    </ion-text>
+  </ion-card>
+  <ion-card>
+    <ion-img src="assets/fotos/g4.webp">
+    </ion-img>
+    <ion-text>
+      <h1>
+        Manga
+      </h1>
+    </ion-text>
+    <ion-text>
+      <h3>
+        Gachiakuta
+      </h3>
+    </ion-text>
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-card class="ven">
+    <ion-img src="assets/fotos/f1.jpg">
+
+    </ion-img>
+    <ion-card-header>
+      <ion-card-title>
+        Mangas
+      </ion-card-title>
+      <ion-card-subtitle>
+        Shonen - seinen
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+        Titulos Top de Temporada
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
