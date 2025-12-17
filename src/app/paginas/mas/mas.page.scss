@@ -1,0 +1,15 @@
+.divm{
+    display: flex; //adaptacion
+    flex-direction: column; //alineacion
+    align-items: center; //
+    text-align: center;//centrar text
+    padding: 20px; //
+}
+
+.cen{
+    width: 60%; //ancho
+    max-width: 350px; //limite de ancho 
+    border-radius: 15px; //bordes redondos
+    padding: 10px; //espacio
+    box-shadow: 0px 8px 20px rgba(240, 9, 25, 0.993); //contorno
+}

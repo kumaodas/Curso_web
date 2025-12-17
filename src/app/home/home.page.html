@@ -1,59 +1,193 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar mode="ios" color="danger">
     <ion-title>
-      Blank
+      CARTAS
     </ion-title>
-    <ion-buttons slot="start">  
+    <!-- <ion-buttons slot="start">  
       <ion-back-button defaultHref="/principal"></ion-back-button>
-    </ion-buttons>
+    </ion-buttons> -->
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-card>
-    <ion-img src="assets/fotos/g3.jpg">
-    </ion-img>
-    <ion-text>
-      <h1>
-        Manga
-      </h1>
-    </ion-text>
-    <ion-text>
-      <h3>
-        Gachiakuta
-      </h3>
-    </ion-text>
-  </ion-card>
-  <ion-card>
-    <ion-img src="assets/fotos/g4.webp">
-    </ion-img>
-    <ion-text>
-      <h1>
-        Manga
-      </h1>
-    </ion-text>
-    <ion-text>
-      <h3>
-        Gachiakuta
-      </h3>
-    </ion-text>
-  </ion-card>
+<ion-content [fullscreen]="true" >
+<div id="background" part="backgraund">
+  
+  <!-- PRIMERA -->
+ <ion-row>
+    <ion-col>
+      <ion-card>
+        <ion-img src="assets/fotos/g14.jpg" class="cen">
+        </ion-img>
+        <ion-text>
+          <h1>
+            Manga
+          </h1>
+        </ion-text>
+        <ion-text>
+          <h3>
+            Gachiakuta
+          </h3>
+        </ion-text>
+      </ion-card>
+    </ion-col>
+      
+    <ion-col>
+      <ion-card>
+        <ion-img src="assets/fotos/g4.webp" class="cen">
+        </ion-img>
+        <ion-text>
+          <h1>
+            Manga
+          </h1>
+        </ion-text>
+        <ion-text>
+          <h3>
+            Gachiakuta
+          </h3>
+        </ion-text>
+      </ion-card>   
+    </ion-col>
+ </ion-row>
+<!-- SEGUNDA -->
+  <ion-row>
+    <ion-col>
+      <ion-card class="ven">
+        <ion-img src="assets/fotos/g3.webp" class="cen" >
+        </ion-img>
+        <ion-card-header>
+          <ion-card-title>
+            Mangas
+          </ion-card-title>
+          <ion-card-subtitle>
+            GACHIAKUTA
+          </ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          VOLUMNE 3
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+      
+    <ion-col>
+      <ion-card  class="ven">
+        <ion-img src="assets/fotos/g5.webp" class="cen">
+        </ion-img>
+        <ion-card-header>
+          <ion-card-title>
+            MANGA
+          </ion-card-title>
+          <ion-card-subtitle>
+            GACHIAKUTA
+          </ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Volumen 5
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
 
-  <ion-card class="ven">
-    <ion-img src="assets/fotos/f1.jpg">
+      <ion-col>
+    <ion-card  class="ven">
+      <ion-img src="assets/fotos/g16.jpg" class="cen">
+      </ion-img>
+      <ion-card-header>
+        <ion-card-title>
+          MANGA
+        </ion-card-title>
+        <ion-card-subtitle>
+          GACHIAKUTA
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        VOLUMEN 16
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+  </ion-row>
+//
+<ion-row>
+  <ion-col>
+    <ion-card  class="ven">
+      <ion-img src="assets/fotos/g6.webp" class="cen">
+
+      </ion-img>
+      <ion-card-header>
+        <ion-card-title>
+          MANGA
+        </ion-card-title>
+        <ion-card-subtitle>
+          GACHIAKUTA
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        VOLUMNE 6
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+  
+  <ion-col>
+    <ion-card  class="ven">
+      <ion-img src="assets/fotos/g14.jpg" class="cen">
+
+      </ion-img>
+      <ion-card-header>
+        <ion-card-title>
+          MANGA
+        </ion-card-title>
+        <ion-card-subtitle>
+          GACHIAKUTA
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        VOLUMEN 14
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+
+    <ion-col>
+    <ion-card  class="ven">
+      <ion-img src="assets/fotos/g15.webp" class="cen">
+        
+      </ion-img>
+      <ion-card-header>
+        <ion-card-title>
+          MANGA
+        </ion-card-title>
+        <ion-card-subtitle>
+          GACHIAKUTA
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        VOLUMN 15
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+ </ion-row>
+ <!-- <div class="cata">
+  <ion-card class="ven" *ngFor= "let p of productos" (click)="irmas(p)">
+    <ion-img src="p.imagen">
 
     </ion-img>
     <ion-card-header>
       <ion-card-title>
-        Mangas
+        {{p.titulo}}
       </ion-card-title>
       <ion-card-subtitle>
-        Shonen - seinen
+        
       </ion-card-subtitle>
     </ion-card-header>
     <ion-card-content>
-        Titulos Top de Temporada
+      {{p.contenido}}
     </ion-card-content>
   </ion-card>
-
+</div> -->
+</div>
 </ion-content>
+
+<ion-footer>
+  <div>
+    <ion-button href="/principal" expand="full" fill="outline" color="danger">
+      Principal
+    </ion-button>
+  </div>
+</ion-footer>

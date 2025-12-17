@@ -1,51 +1,72 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar mode="ios" color="danger">
     <ion-title >
       Curso_Web
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
+
+<app-header-global>
+</app-header-global>
 
 <ion-content [fullscreen]="true">
-  
+ <!-- Barra para Bucar -->
   <div>
+    <ion-searchbar placeholder="Buscar" (ionInput)="buscar($event)">
+    </ion-searchbar>
+  </div>
+  <!-- Carrusel -->
+   <aside>
+    <swiper-container
+      slides-per-view="1"
+      loop="true"
+      autoplay-delay="3000"
+      pagination="true"
+      class="swiper-banner"
+    >
+    <swiper-slide *ngFor="let img of imagenesCarrusel">
+      <img [src]="img" class="img-carousel" />
+    </swiper-slide>
+    </swiper-container>
+  </aside>
+
+  <!-- opciones de barra -->
+  <div>
+    <nav class="cate">
+      <ul class="menu-h">
+        <li class="item" *ngFor="let cat of categoria">
+          {{cat.categoria}}
+          <ul class="submenu">
+            <li class="subit" *ngFor="let sub of cat.subcategoria" (click)="filtrarSubCat(sub)">
+              {{sub}}
+            </li>
+          </ul>
+        </li>
+        <li class="item" (click)="mostrarTodos()">
+          Mostrar Todos
+        </li>
+      </ul>
+    </nav>
+  </div>
+<!--  -->
+ <!--  <div>
     <ion-col>
       <ion-text>
         Jean_P_Carlos_P
       </ion-text>
     </ion-col>
-  </div>
-
-  <ion-row>
+  </div> -->
+<!-- SEPARACIONES ENTRE COLUMNAS -->
+<!--   <ion-row>
     <ion-col>
       j
     </ion-col>
     <ion-col>
       p
     </ion-col>
-  </ion-row>
-
-  <ion-row>
-    <ion-col>
-      h
-    </ion-col>
-    <ion-col>
-      o
-    </ion-col>
-    <ion-col>
-      l
-    </ion-col>
-    <ion-col>
-      a
-    </ion-col>
-  </ion-row>
-  <div>
-    <ion-button href="/home">
-      PAGUINA
-    </ion-button>
-  </div>
-  
-  <ion-card>
+  </ion-row> -->
+<!-- LISTA DE CARTAS -->
+  <!-- <ion-card>
     <ion-card-header>
       <ion-card-title>
         Marcas
@@ -83,25 +104,69 @@
       </ion-list>
     </ion-card-content>
 
-  </ion-card>
-
-  <ion-row>
+  </ion-card> -->
+  <!--  -->
+<!--   <div class="cata">
     <ion-col>
-      <ion-img src="assets/fotos/g3.jpg">
+      <ion-img src="assets/fotos/g3.webp" class="b">
       </ion-img>
     </ion-col>
     <ion-col>
-      <ion-img src="assets/fotos/g4.webp">
+      <ion-img src="assets/fotos/g4.webp" class="b">
       </ion-img>
     </ion-col>
-  </ion-row>
+    <ion-col>
+      <ion-img src="assets/fotos/g5.webp" class="b">
+      </ion-img>
+    </ion-col>
+    <ion-col>
+      <ion-img src="assets/fotos/g6.webp" class="b">
+      </ion-img>
+    </ion-col>
+    <ion-col>
+      <ion-img src="assets/fotos/g14.jpg" class="b">
+      </ion-img>
+    </ion-col>
+    <ion-col>
+      <ion-img src="assets/fotos/g15.webp" class="b">
+      </ion-img>
+    </ion-col><ion-col>
+      <ion-img src="assets/fotos/g16.jpg" class="b">
+      </ion-img>
+    </ion-col>
 
+  </div> -->
+  <!-- Cartas-json -->  
+  <div class="cata">
+      <ion-card *ngFor= "let p of productoFiltrado"  class="b">
+        <ion-img [src]="p.imagen" class="cen" (click)="verimagen(p)">
+        </ion-img>
+        <ion-card-header>
+          <ion-card-title style="font-size: 15px;" (click)="irmas(p)">
+            {{p.titulo}}
+          </ion-card-title>
+          <ion-card-subtitle style="font-size: 8px;" >
+            {{p.subtitulo}}
+          </ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content style=" font-size: 10px;">
+          {{p.contenido}}
+        </ion-card-content>
+      </ion-card>
+    </div>
+  <!-- Footer -->
+  <div>
+    <app-footer-global>
+    </app-footer-global>
+  </div>
 </ion-content>
 
-<ion-footer [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Upse Crece sin Limites!!!
-    </ion-title>
-  </ion-toolbar>
-</ion-footer>
+<!-- <ion-footer [translucent]="true">
+  
+  <div>
+    <ion-button href="/home" expand="full" fill="outline" color="danger">
+      PAGUINA
+    </ion-button>
+  </div>
+</ion-footer> -->
+

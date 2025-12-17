@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -25,11 +24,24 @@
 #container a {
   text-decoration: none;
 }
-
+//cratas moradas
 ion-card{
-  border: radius 90px;
+  border: radius  5px;
   box-shadow: 0 5px 8px rgb(255, 0, 255);
+  height: 80%;
 
+}
+//cartas rojas
+.ven{
+  height: 80%;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px rgb(255, 0, 0);
+}
+
+//imagen
+.cen{
+  height: 70%;
 }
 
 .h1{
@@ -37,10 +49,12 @@ ion-card{
 
 }
 
-.ven{
-  width: 50%;
-  margin: 10px auto;
-  border-radius: 5px;
-  box-shadow: 0 5px 8px rgb(255, 0, 0);
+//div
+.cata{
+  display: grid; //separacion
+  grid-template-columns: repeat(3, 1fr); //para cuantas se solocaran en la linea 
+  gap: 10px; //separacion
+  padding: 10px; //
 }
+
 

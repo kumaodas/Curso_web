@@ -1,0 +1,33 @@
+<app-header-global>
+  
+</app-header-global>
+
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar mode="ios" color="danger">
+    <ion-title>
+      mas
+    </ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+  <div class="divm">
+    <ion-img [src]="producto.imagen" class="cen">
+    </ion-img>
+    <h1>
+      {{producto.titulo}}
+    </h1>
+    <h3>
+      {{producto.subtitulo}}
+    </h3>
+    <p>
+      {{producto.contenido}}
+    </p>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-button expand="full" color="danger" fill="outline" href="/principal">
+    VOLVER
+  </ion-button>
+</ion-footer>

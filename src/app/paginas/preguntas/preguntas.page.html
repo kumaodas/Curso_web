@@ -1,0 +1,34 @@
+<app-header-global>
+
+</app-header-global>
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>preguntas</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+  <section class="cabecera" style="border: 1px solid red;">
+    <h2>
+      Preguntas...?
+    </h2>
+    <p>
+      Escribenos
+    </p>
+  </section>
+
+  <ion-accordion-group expand="inset" class="acordion">
+    <ion-accordion *ngFor='let item of preguntas; let i = index' [value]='i'>
+      <ion-item class="header" slot="header">
+        <ion-icon [name]="item.icono" >
+        </ion-icon>
+        <ion-label >
+          {{item.titulo}}
+        </ion-label>
+      </ion-item>
+      <div class="hola" slot="content">
+        {{item.respuesta}}
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+</ion-content>

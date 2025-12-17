@@ -1,0 +1,161 @@
+[{
+      "id": 1,
+      "titulo": "Gachiakuta",
+      "subtitulo": "Shounen",
+      "contenido": " Manga de genero Shounen ",
+      "imagen": "assets/fotos/g3.webp",
+      "categoria": "Libros",
+      "subcategoria": "mangas"
+    },
+    {
+      "id": 2,
+      "titulo": "Gachiakuta",
+      "subtitulo": "Shounen",
+      "contenido": "Manga de genero Shounen ",
+      "imagen": "assets/fotos/g5.webp",
+      "categoria": "Libros",
+      "subcategoria":"educativos"
+    },
+    {
+      "id": 3,
+      "titulo": "Gachiakuta",
+      "subtitulo": "Shounen",
+      "contenido": "Manga de genero Shounen ",
+      "imagen": "assets/fotos/g16.jpg",
+      "categoria": "Libros",
+      "subcategoria": "mangas"
+    },
+    {
+      "id": 4,
+      "titulo": "Gachiakuta",
+      "subtitulo": "Shounen",
+      "contenido": "Manga de genero Shounen ",
+      "imagen": "assets/fotos/g6.webp",
+      "categoria": "Libros",
+      "subcategoria": "educativos"
+    },
+    {
+      "id": 5,
+      "titulo": "Gachiakuta",
+      "subtitulo": "Shounen",
+      "contenido": "Manga de genero Shounen",
+      "imagen": "assets/fotos/g14.jpg",
+      "categoria": "Libros",
+      "subcategoria": "mangas"
+    },
+    {
+      "id": 6,
+      "titulo": "Gachiakuta",
+      "subtitulo": "Shounen",
+      "contenido": "Manga de genero Shounen ",
+      "imagen": "assets/fotos/g15.webp",
+      "categoria": "Libros",
+      "subcategoria": ["mangas" , "educativos"]
+    },
+    {
+      "id": 7,
+      "titulo": "Chainsaw man",
+      "subtitulo": " shounen",
+      "contenido": "Manga de genero Shounen",
+      "imagen": "assets/fotos/c1.webp",
+      "categoria": "revistas",
+      "subcategoria": "publicitarias"
+    },
+    {
+      "id": 8,
+      "titulo": "Chainsaw man",
+      "subtitulo": "Shounen",
+      "contenido": "volumen 5",
+      "imagen": "assets/fotos/c5.webp",
+      "categoria": "revistas",
+      "subcategoria": "publicitarias"
+    },
+    {
+      "id": 9,
+      "titulo": "Chainsaw man",
+      "subtitulo": "Shounen",
+      "contenido": "volumen 8 ",
+      "imagen": "assets/fotos/c8.webp",
+      "categoria": "revistas",
+      "subcategoria": "Cientificas"
+    },
+    {
+      "id": 10,
+      "titulo": "Chainsaw man",
+      "subtitulo": "Shounen",
+      "contenido": "volumen 10 ",
+      "imagen": "assets/fotos/c10.webp",
+      "categoria": "revistas",
+      "subcategoria": "Cientificas"
+    },
+    {
+      "id": 11,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 1 ",
+      "imagen": "assets/fotos/n1.webp"
+    },
+    {
+      "id": 12,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 2 ",
+      "imagen": "assets/fotos/n2.webp"
+    },
+    {
+      "id": 13,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 3 ",
+      "imagen": "assets/fotos/n3.webp"
+    },
+    {
+      "id": 14,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 4 ",
+      "imagen": "assets/fotos/n4.webp"
+    },
+    {
+      "id": 15,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 5 ",
+      "imagen": "assets/fotos/n5.webp"
+    },
+    {
+      "id": 16,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 6 ",
+      "imagen": "assets/fotos/n6.jpg"
+    },
+    {
+      "id": 17,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 7 ",
+      "imagen": "assets/fotos/n7.webp"
+    },
+    {
+      "id": 18,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 8 ",
+      "imagen": "assets/fotos/n8.webp"
+    },
+    {
+      "id": 19,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 9 ",
+      "imagen": "assets/fotos/n9.webp"
+    },
+    {
+      "id": 20,
+      "titulo": "MANGA",
+      "subtitulo": "La Nobleza de las Flores",
+      "contenido": "volumen 10 ",
+      "imagen": "assets/fotos/n10.webp"
+    }
+  ]

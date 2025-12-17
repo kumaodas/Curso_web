@@ -1,0 +1,12 @@
+[
+    {
+        "categoria":"Libros",
+        "subcategoria": ["mangas" , "educativos"]
+    },{
+        "categoria":"Caricaturas",
+        "subcategoria": ["Nacionales" , "Extrangeras"]
+    },{
+        "categoria":"Revistas",
+        "subcategoria": ["Cientificas", "publicitarias"]
+    }
+]

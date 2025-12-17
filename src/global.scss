@@ -24,7 +24,11 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
-
+/*CARRUSEL*/
+@import '@ionic/angular/css/palettes/dark.system.css';
+@import 'swiper/css';
+@import 'swiper/css/autoplay';
+@import 'swiper/css/pagination';
 /**
  * Ionic Dark Mode
  * -----------------------------------------------------
@@ -35,3 +39,10 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+.estilo_modal::part(backdrop){
+    --backdrop-opacity: 0,1;
+    background: rgba(0,0,0,0.7);
+    /* backdrop-filter: blur(8px); */
+    backdrop-filter: blur(8px);
+}

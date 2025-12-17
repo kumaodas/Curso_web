@@ -1,0 +1,109 @@
+<ion-header [translucent]="true">
+  <ion-toolbar mode="ios" color="danger">
+    <ion-title>
+      NOSOTROS
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="fondo">
+  <div class="espa" >
+    <ion-row>
+      <ion-col>
+        <ion-card class="carta" style="color: red;">
+          <ion-img src="assets/fotos/Ubi.PNG" class="1i">
+
+          </ion-img>
+          <ion-card-header>
+            <ion-card-title >
+              Estamos Ubicados....
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <!-- <ion-col>
+        <ion-card class="carta">
+          <ion-img src="assets/fotos/g16.jpg" class="1i">
+
+          </ion-img>
+          <ion-card-header>
+            <ion-card-title>
+              Mangas
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Gachiakuta - Genero: Shounen
+          </ion-card-content>
+        </ion-card>
+      </ion-col> -->
+    </ion-row>
+  </div>
+<!-- Texto  -->
+  <div class="espa" style="border: 1px solid red;">
+    <p style="color: black;">
+      UPSE forma profesionales que aportan al desarrollo sostenible, contribuye a la solución de los problemas de la comunidad y promueve la cultura. FACULTADES.
+    </p>
+  </div>
+
+  <!-- CONTAINER -->
+  <div class="espa">
+    <!-- # DE SEPARACIONES  -->
+    <ion-row>
+      <!-- 1 -->
+      <ion-col class="dis">
+        <!-- CONTENIDO -->
+          <a href="https://eva.upse.edu.ec/" style="color: red;">
+            AULAS VIRTUALES
+          </a>
+      </ion-col>
+      <!-- 2 -->
+      <ion-col class="dis">
+        <!-- CONTENIDO -->
+          <a href="https://www.tiktok.com/@upse_ec?lang=es-419" style="color: rgb(0, 60, 255);">
+            PAGUINAS WEB
+          </a>
+      </ion-col>
+    </ion-row>
+  </div>
+<!-- PRUEBA TRES COLUMNAS 20-60-20 -->
+ <!-- <div class="container">
+  <div class="col left-col">
+    <p>
+    IZQUIERDA
+    </p>
+  </div>
+  <div class="ccol" style="text-align: center;">
+    <h1>
+      CENTRAL
+    </h1>
+  </div>
+  <div class="col right-col">
+    <p>
+      DERECHA
+    </p>
+  </div>
+ </div> -->
+
+<!-- Boton Contenido -->
+  <div>
+    <ion-button id="present-alert" expand="full" fill="outline">Click Me</ion-button>
+    <ion-alert
+      trigger="present-alert"
+      header="FELICITACIONES!!"
+      subHeader="Unete ah..."
+      message="UPSE Crece sin Limites!!"
+      [buttons]="alertButtons"
+    ></ion-alert>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <div>
+    <ion-button href="/principal" expand="full" fill="outline" color="danger">
+      Principal
+    </ion-button>
+  </div>
+</ion-footer>

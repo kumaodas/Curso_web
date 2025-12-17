@@ -1,0 +1,42 @@
+//DAVID
+.redes{
+    display: grid;
+    gap: 24px;
+    padding: 4px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+a{
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.foo{
+    //background: rgb(189, 24, 24);
+    background: linear-gradient(90deg, rgb(115, 93, 93) 0%, rgb(97, 28, 28) 50%, rgb(133, 0, 0) 100%);
+    padding: 6px 0;
+    border-top: 1px solid red;
+    height: 50px;
+}
+
+.text{
+    text-align: center;
+}
+
+.footer-container{
+    text-align: center;
+}
+
+.menu{
+    margin-top: 5px;//margen
+
+}
+
+.menu a{
+    margin: 5px;
+    font-size: 7px;
+    color: red;
+}

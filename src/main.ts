@@ -4,6 +4,16 @@ import { IonicRouteStrategy, provideIonicAngular } from '@ionic/angular/standalo
 
 import { routes } from './app/app.routes';
 import { AppComponent } from './app/app.component';
+import { addIcons } from 'ionicons';
+
+import { logoFacebook, logoYoutube, logoWhatsapp }from 'ionicons/icons';
+
+addIcons({
+'logo-facebook':logoFacebook,
+'logo-youtube': logoYoutube,
+'logo-whatsapp': logoWhatsapp
+
+});
 
 bootstrapApplication(AppComponent, {
   providers: [
@@ -11,4 +21,4 @@ bootstrapApplication(AppComponent, {
     provideIonicAngular(),
     provideRouter(routes, withPreloading(PreloadAllModules)),
   ],
-});
+}).catch(err => console.log(err));

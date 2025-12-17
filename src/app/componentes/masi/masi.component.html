@@ -1,0 +1,18 @@
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        {{titulo}}
+      </ion-title>
+    <ion-button slot="end" (click)="cerrar()" color="danger" fill="outline">
+      X
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+<ion-content >
+  <div class="imagen">
+    <img [src]="imagen" alt ="una " class="im" >
+  </div>
+  <p style="text-align: center;">
+    PARABENS!!!
+  </p>
+</ion-content>
